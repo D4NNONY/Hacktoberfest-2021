@@ -7,3 +7,14 @@ Paulista
 Mineiro
 Outros estados
 '''
+
+uf = str(input("insira a sigla do seu estado: "))
+
+if (uf == "sp"):
+  print("paulista")
+elif (uf == "rj"):
+  print("carioca")
+elif (uf == "mg"):
+  print("mineiro")
+else:
+  print("outros estados")
