@@ -13,3 +13,9 @@ SONHO SONHO SONHO SONHO SONHO
 Repare que foram impressos 5 vezes na horizontal e 5 na
 vertical
 '''
+word = input('digite a palavra e veja o que acontece: ')
+word += ' '
+for i in range(len(word)-1):
+    print(word* (i+1))
+    
+input()
