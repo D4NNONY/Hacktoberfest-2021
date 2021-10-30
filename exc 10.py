@@ -8,3 +8,9 @@ caracteres do nome
 - E a respectiva porcentagem das vogais em relação
 ao total de caracteres.
 '''
+nome = input("Digite um nome: ")
+a = nome.count('a')
+numTotalNome = len(nome)
+porcen = (a / numTotalNome) * 100
+print("esse nome possui ",numTotalNome, "caracteres")
+print("A proporção de vogais do nome é de ", porcen, "%")
