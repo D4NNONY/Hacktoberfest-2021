@@ -5,6 +5,7 @@ Se o tamanho for maior que 40, dar uma mensagem de
 entrada inválida e solicitar novamente, se passar, imprimir a
 frase na vertical com um tempo em cada letra.
 '''
+
 while True:
       word=input("Escreva uma frase: \n")
       if len(word) > 40:
